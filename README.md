@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://your-solution-url.com)
+- Live Site URL: [live site URL here](https://derrick1451.github.io/Blog_preview_card/)
 
 ## My process
 - First implemented the structure of the card with HTML and then started up with the mobile first approach with the styling
