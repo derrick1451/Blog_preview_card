@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(47, 88%, 63%);
+    padding: 1rem;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    border: 1px solid hsl(0, 0%, 7%);
+    border-right: 10px solid hsl(0, 0%, 7%);
+    border-bottom: 10px solid hsl(0, 0%, 7%);
+}
+.btn {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    padding: 0.5rem;
+    width: 130px;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+.section span {
+    color: hsl(0, 0%, 7%);
+    font-weight: 600;
+}
+.section h1 {
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    cursor: pointer;
+}
+h1:active {
+    color: hsl(47, 88%, 63%);
+}
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+.gray-text {
+    color: hsl(0, 0%, 50%);
+    font-weight: 600;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+@media (min-width: 768px) {
+    .section {
+        width: 50%;
+        margin: 3rem auto;
+    }
+
+}
